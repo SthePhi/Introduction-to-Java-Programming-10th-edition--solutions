@@ -1,0 +1,13 @@
+		Faculty			|
+----------------------------------------|
+-officeHours:String			|
+-rank:String				|
+----------------------------------------|
++Faculty()				|
++Faculty(name:String, address:String,	|
+phone:String, email:String, officeHours:|
+String, rank:String)			|
++getOfficeHours():String		|
++setOfficeHours(officeHours:String):void|
++toString():String			|
+----------------------------------------+

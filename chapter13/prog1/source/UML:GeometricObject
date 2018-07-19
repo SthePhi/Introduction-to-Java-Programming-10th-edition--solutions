@@ -1,0 +1,13 @@
+		GeometricObject			|
+------------------------------------------------|
+-filled:boolean					|
+-color:String					|
+------------------------------------------------|
++GeometricObject()				|
++GeometricObject(color:String, filled:boolean)	|
++getColor():String				|
++setColor(color:String):void			|
++isFilled():boolean				|
++setFilled(filled:boolean):void			|
++toStrong():String				|
+------------------------------------------------+

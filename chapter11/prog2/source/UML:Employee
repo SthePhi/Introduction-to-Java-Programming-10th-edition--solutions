@@ -1,0 +1,19 @@
+		Employee		|
+----------------------------------------|
+-office:String				|
+-salary:int				|
+-dateHired:java.util.Date		|	|
+----------------------------------------|
++Employee()				|
++Employee(name:String, address:String,  |
+phone:String,email:String,office:String,|
+salary:int, 				|
+dateHired:java.util.Date)		|
++getOffice():String			|
++setOffice(office:String):void		|
++getSalary():int			|
++setSalary(salary:int):void		|
++getDateHired():java.util.Date		|
++setDateHired(dateHired:java.util.Date)	|		|
++toString():String			|
+----------------------------------------+

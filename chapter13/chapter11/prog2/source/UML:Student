@@ -1,0 +1,11 @@
+		Student			|
+----------------------------------------|
+-status:String				|
+----------------------------------------|
++Student()				|
++Student(name:String, address:String,	|
+phone:String,email:String,status:String)|
++getStatus():String			|
++setStatus(status:String):void		|
++toString():String			|
+----------------------------------------+

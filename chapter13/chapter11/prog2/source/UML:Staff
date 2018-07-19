@@ -1,0 +1,12 @@
+		Staff		       |
+---------------------------------------|
+-title:String			       |
+---------------------------------------|
++Staff()			       ||
++Staff(name:String, address:String,    |
+phone:String,email:String,title:String)|		      |
++getTitle():String		       |
++setTitle(title:String):void	       |
++toString():String		       |
+---------------------------------------+
+

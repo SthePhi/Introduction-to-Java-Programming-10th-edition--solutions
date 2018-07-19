@@ -1,0 +1,14 @@
+		Time
+------------------------------------|
+-hour:long
+-minute:long
+-second:long
+------------------------------------|
++Time()
++Time(elapsed:long)
++Time(hour:long, minute:long, second:long)
++getHour():long
++getMinute():long
++getSecond():long
++setTime(elapseTime:long):void
+------------------------------------|
