@@ -6,11 +6,9 @@ public class Prog22
 	{
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter an amount in double, for example 11.56: ");
-		int amount = input.nextDouble();
+		int remainingAmount = input.nextInt();
+		double amount = remainingAmount / 100d;
 
-		
-
-		int remainingAmount = (int)(amount * 100);
 		int numberOfDollars = remainingAmount / 100;
 		remainingAmount %= 100;
 
